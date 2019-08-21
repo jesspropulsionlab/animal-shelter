@@ -1,3 +1,19 @@
+@media screen and (max-width: 500px) and (min-width: 200px) {
+  body {
+    background-color: lightyellow;
+  }
+  main {
+    font-family: 'Courier New', Courier, monospace;
+  }  
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  body {
+    background-color: mistyrose;
+    font-family: Arial, Helvetica, sans-serif;
+  }   
+}
+
 header {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: lightsteelblue;
@@ -15,15 +31,20 @@ main p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+article {
+  width: 1600px;
+  overflow: hidden;
+}
+
 section {
-  width: 25%;
+  width: 28%;
   float: left;
   padding: 6px;
   margin: 10px;
 }
 
 img {
-  width: 400px;
+  width: 80%;
   height: auto;
   align-content: center;
 }
