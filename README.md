@@ -27,6 +27,7 @@ _This is a webpage for trying to find homes for fake animals. It will include a 
 ## Technologies Used
 
 * HTML
+* Bootstrap
 * GitBash
 * GitHub
 * VSC

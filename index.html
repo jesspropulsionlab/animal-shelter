@@ -1,96 +1,116 @@
 <!DOCTYPE html>
 <head>
   <title>Animal Shelter</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
   <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-  <header>
-    <h1>Welcome to our Animal Shelter!</h1>
-    <h2>Find the furbaby of your dreams.</h2>
-  </header>
-  <main>
-    <article>
-      <h2>Our featured dogs!</h2>
-      <section>
-        <h4>This is Puggington.</h4>
-        <p>He is a pug, who enjoys spending his free time dressed
-        as a unicorn. He's a unipug. He's a pugicorn. Whatever he is, he's fabulous. He likes 
-        long walks, but can't breathe well enough to go on them. He likes rainy weather, but 
-        hates being wet. He also loves human food, but is on a strict canned dog food diet. 
-        He loves children, but can't stand babies. He smells all the time, and 
-        has terrible gas. He also enjoys being pushed around in a stroller. What a catch!</p>
-        <img src="images/unicorn-pug.jpg" alt="A picture of a Pugicorn.">
-      </section>
-      <section>
-        <h4>This is Cornwallis.</h4>
-        <p>Cornwallis has a lot of energy. He probably would love nothing
-        more to go hunting all day, and bring back lots of beautiful waterfoal for his owners. 
-        Alas, we'll never know for sure, because Cornwallis is deathly allergic to birds. He doesn't
-        like children, and seems to hate older women, but would do really well in a house with a 
-        couple of men, and no other pets. Definitely no birds. He is very cuddly, but also sheds
-        like a sheep, if sheep shed. He is very soft, so there's that.</p>
-        <img src="images/white-doge.jpg" alt="A picture of a handsome dog jumping.">
-      </section>
-      <section>
-        <h4>This is Georgia.</h4>
-        <p>Georgia is the happiest dog we've ever had in our shelter. She smiles constantly.
-        We've never heard he make sad sounds, or even look sad. When you are around her, you can't 
-        be sad either. It's literally impossible. She loves everyone and everything, and she's
-        perfect. When I see her, my heart feels lighter. All of my stomach issues, and heart 
-        palpatations just float away. On second thought...maybe she is not available.</p>
-        <img src="images/happiest-dog.jpg" alt="This is the happiest dog on Earth.">
-      </section>
-      <section>
-        <h4>This is Remus.</h4>
-        <p>Remus is a baby. Literally, he is a kitten. But more than that, he seems very
-        young, and naive. He's probably never had anything bad happen to him yet, that's probably
-        why. Just wait, young Remus. Soon, you'll grow up and realize that everything is terrible.
-        People will judge you, because you're sort of a redhead cat. They won't want you teaching
-        their children, and eventually you'll have a son named Teddy who you will wind up orphaning,
-        due to your good-heartedness, despite the difficulties you've endured in your life.</p>
-        <img src="images/tiny-kitten.jpg" alt="A small, orange and white kitten.">
-      </section>
-      <section>
-        <h4>This is Jefe</h4>
-        <p>Jefe is in charge. He's a no nonsense kind of cat. He hates everyone. He's basically
-        the exact opposite of Georgia. He always seems mad. No idea about what, though. He always
-        looks grumpy. He seems incapable of making any face other than sourpuss. But for all of his
-        negativity, he always has a soothing presence. He'll stay in a room with you, even though
-        it's pretty obvious he'd rather be alone. Sometimes he'll let out a tiny meow that let's you
-        know that even though he hates you, he's still got your back.</p>
-        <img src="images/angry-cat.jpg" alt="A very angry looking cat.">
-      </section>
-      <section>
-        <h4>This is Patricia</h4>
-        <p>Patricia was named by a small child, and we know it isn't a great name for a cat, but 
-        we didn't have the heart to tell her it sucked. Patricia is a pretty average cat. She likes
-        her alone time, but she'll also lay near you on the couch. She has never been outside, so she
-        doesn't know what she's missing in that regard. She does use a litter box, but she isn't great
-        at covering her turds up. Maybe no one ever taught her how. She's terrible when it comes to
-        knocking things off of tables, but she usually looks sorry after she does it.</p>
-        <img src="images/upside-down-cat.jpg" alt="An orange cat looking up.">
-      </section>
-    </article>
-      <div class ="container">
-        <aside class="small-pets">
-          <h3>We also have smaller pets!</h3>
-          <ul>
-            <li>Turtles</li>
-            <li>Birds</li>
-            <li>Lizards</li>
-            <li>Guinea Pigs</li>
-            <li>Snakes</li>
-            <li>Sugar Gliders</li>
-            <li>Rocks</li>
-          </ul>
-        </aside>
-        <aside class="other-animals">
-          <h3>Check out our other animals!</h3>
-          <ul>
-            <li>Cats</li>
-            <li>Dogs</li>
-          </ul>
-        </aside>
-      </div>  
-  </main>
+  <div class="container">
+    <header class="jumbotron">
+      <h1>Welcome to our Animal Shelter!</h1>
+      <h2>Find the furbaby of your dreams.</h2>
+    </header>
+    <main>
+      <h2>Our featured pets!</h2>
+      <article class="row">
+        <div class="col-md-3">
+          <section>
+            <h4>This is Puggington.</h4>
+            <p>He is a pug, who enjoys spending his free time dressed
+            as a unicorn. He's a unipug. He's a pugicorn. Whatever he is, he's fabulous. He likes 
+            long walks, but can't breathe well enough to go on them. He likes rainy weather, but 
+            hates being wet. He also loves human food, but is on a strict canned dog food diet. 
+            He loves children, but can't stand babies. He smells all the time, and 
+            has terrible gas. He also enjoys being pushed around in a stroller. What a catch!</p>
+            <img src="images/unicorn-pug.jpg" class="img-thumbnail" alt="A picture of a Pugicorn.">
+          </section>
+        </div>
+        <div class="col-md-3">  
+          <section>
+            <h4>This is Cornwallis.</h4>
+            <p>Cornwallis has a lot of energy. He probably would love nothing
+            more to go hunting all day, and bring back lots of beautiful waterfoal for his owners. 
+            Alas, we'll never know for sure, because Cornwallis is deathly allergic to birds. He doesn't
+            like children, and seems to hate older women, but would do really well in a house with a 
+            couple of men, and no other pets. Definitely no birds. He is very cuddly, but also sheds
+            like a sheep, if sheep shed. He is very soft, so there's that.</p>
+            <img src="images/white-doge.jpg" class="img-thumbnail" alt="A picture of a handsome dog jumping.">
+          </section>
+        </div>
+        <div class="col-md-3">    
+          <section>
+            <h4>This is Georgia.</h4>
+            <p>Georgia is the happiest dog we've ever had in our shelter. She smiles constantly.
+            We've never heard he make sad sounds, or even look sad. When you are around her, you can't 
+            be sad either. It's literally impossible. She loves everyone and everything, and she's
+            perfect. When I see her, my heart feels lighter. All of my stomach issues, and heart 
+            palpatations just float away. She is a <em>purr</em>-fect princess. On second thought...
+            maybe she is not available.</p>
+            <img src="images/happiest-dog.jpg" class="img-thumbnail" alt="This is the happiest dog on Earth.">
+          </section>
+        </div>
+        <div class="col-md-3">
+            <aside class="small-pets">
+              <h3>We also have smaller pets!</h3>
+              <ul>
+                <li>Turtles</li>
+                <li>Birds</li>
+                <li>Lizards</li>
+                <li>Guinea Pigs</li>
+                <li>Snakes</li>
+                <li>Sugar Gliders</li>
+                <li>Rocks</li>
+              </ul>
+            </aside>
+            <aside class="other-animals">
+              <h3>Check out our other animals!</h3>
+              <ul>
+                <li><a href="#">Cats</a></li>
+                <li><a href="#">Dogs</a></li>
+              </ul>
+            </aside>
+          </div>
+      </article>
+      <div class="second-row">    
+        <article class="row">
+          <div class="col-md-4">  
+            <section>
+              <h4>This is Remus.</h4>
+              <p>Remus is a baby. Literally, he is a kitten. But more than that, he seems very
+              young, and naive. He's probably never had anything bad happen to him yet, that's probably
+              why. Just wait, young Remus. Soon, you'll grow up and realize that everything is terrible.
+              People will judge you, because you're sort of a redhead cat. They won't want you teaching
+              their children, and eventually you'll have a son named Teddy who you will wind up orphaning,
+              due to your good-heartedness, despite the difficulties you've endured in your life.</p>
+              <img src="images/tiny-kitten.jpg" class="img-thumbnail" alt="A small, orange and white kitten.">
+            </section>
+          </div>
+          <div class="col-md-4"> 
+            <section>
+              <h4>This is Jefe</h4>
+              <p>Jefe is in charge. He's a no nonsense kind of cat. He hates everyone. He's basically
+              the exact opposite of Georgia. He always seems mad. No idea about what, though. He always
+              looks grumpy. He seems incapable of making any face other than sourpuss. But for all of his
+              negativity, he always has a soothing presence. He'll stay in a room with you, even though
+              it's pretty obvious he'd rather be alone. Sometimes he'll let out a tiny meow that let's you
+              know that even though he hates you, he's still got your back.</p>
+              <img src="images/angry-cat.jpg" class="img-thumbnail" alt="A very angry looking cat.">
+            </section>
+          </div>
+          <div class="col-md-4"> 
+            <section>
+              <h4>This is Patricia</h4>
+              <p>Patricia was named by a small child, and we know it isn't a great name for a cat, but 
+              we didn't have the heart to tell her it sucked. Patricia is a pretty average cat. She likes
+              her alone time, but she'll also lay near you on the couch. She has never been outside, so she
+              doesn't know what she's missing in that regard. She does use a litter box, but she isn't great
+              at covering her turds up. Maybe no one ever taught her how. She's terrible when it comes to
+              knocking things off of tables, but she usually looks sorry after she does it.</p>
+              <img src="images/upside-down-cat.jpg" class="img-thumbnail" alt="An orange cat looking up.">
+            </section>
+          </div>  
+        </article>
+      </div>    
+    </main>
+  </div>
 </body>
